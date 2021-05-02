@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -d /Users/stevesong/NOMAD/Vanila_JS"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://schul92.github.io/VanilaJS",
+  "homepage": "http://schul92.github.io/VanilaJS",
   "dependencies": {
     "gh-pages": "^3.1.0"
   }

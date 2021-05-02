@@ -110,3 +110,10 @@ body {
 }
 
 
+.js-weather{
+  color: blanchedalmond;
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  align-items: top;
+}

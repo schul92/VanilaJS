@@ -18,7 +18,6 @@ function getTime() {
 
 
     const hours = now.getHours();
-    console.log(hours)
     const hoursDegree = (((hours / 60) * 360) + 90) + 15*10;
     hourHand.style.transform = `rotate(${hoursDegree}deg)`
 
