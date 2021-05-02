@@ -1,0 +1,112 @@
+
+body {
+  background-color: #2c3e50;
+}
+
+.btn {
+  cursor: pointer;
+}
+body {
+  color: whitesmoke;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.js-clock {
+    display: flex;
+    height: 10vh;
+    color: rgb(2, 1, 15);
+    justify-content: center;
+    align-items: center;
+}
+.js-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.js-greetings {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.js-toDoForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+
+.clock {
+    width: 20rem;
+    height: 20rem;
+    border: 3px solid powderblue;
+    margin: 50px auto;
+    border-radius: 100%;
+    position: relative;
+    padding: 2rem;
+    box-shadow:
+        0 0 0 4px rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px powderblue,
+        inset 0 0 10px blue,
+        0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    transform: translateY(-3px);
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: paleturquoise;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: 0.3s all;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hand-hour {
+    width: 50%;
+}
+.hand-minute {
+    height: 2.5px;
+}
+.hand-seconds {
+    height: 1px
+}
+
+
